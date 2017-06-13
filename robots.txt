@@ -1,0 +1,7 @@
+# Archivo "Robots.txt"
+# http://www.jjpeleato.com
+
+User-agent: *
+Disallow: /img/icon-footer
+Disallow: /img/icon-browser
+Sitemap: http://www.jjpeleato.com/sitemap.xml
