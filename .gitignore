@@ -2,6 +2,8 @@
 # Core files           #
 ########################
 /img
+/telintelon
+/courses
 
 #############################
 # Logs, databases and misc. #
