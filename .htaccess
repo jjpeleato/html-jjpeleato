@@ -8,7 +8,7 @@
     RewriteEngine On
     RewriteBase /
     RewriteCond %{HTTP_HOST} !^www\.
-    RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+    RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
 # Redirect: www.dominio.com to www.dominio.com + SSL

@@ -52,7 +52,7 @@ if ($_POST){
 			</head>
 
 			<body>
-				<p>Este correo ha sido enviado desde el formulario de 'Contacto' de http://www.jjpeleato.com</p>
+				<p>Este correo ha sido enviado desde el formulario de 'Contacto' de https://www.jjpeleato.com</p>
 				IP: ". getRealIP() ."<br>
 				Nombre: ". seguridad($_POST['txtNombre']) ."<br>
 				Email: ". seguridad($_POST['txtEmail']) ."<br>
