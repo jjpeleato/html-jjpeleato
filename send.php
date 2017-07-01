@@ -70,4 +70,6 @@ if ($_POST){
     } else {
         return false;
     }
+} else {
+    header ("Location: https://www.jjpeleato.com");
 }
