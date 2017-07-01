@@ -11,11 +11,12 @@
     RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
-# Redirect: www.dominio.com to dominio.com + SSL
-#<IfModule mod_rewrite.c>
-#    RewriteCond %{HTTPS} off
-#    RewriteRule ^(.*)$ https://www.jjpeleato.com/$1 [R=301,L]
-#</IfModule>
+# Redirect: www.dominio.com to www.dominio.com + SSL
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{HTTPS} !=on [NC]
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
 
 # EXPIRES CACHING
 <IfModule mod_expires.c>
