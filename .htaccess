@@ -4,6 +4,13 @@
     deny from all
 </files>
 
+# .git secure
+<files .git>
+    order allow,deny
+    deny from all
+</files>
+
+# Redirect: dominio.com to www.dominio.com
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
