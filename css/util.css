@@ -548,6 +548,16 @@ hr.dark {
     background: #FFFFFF;
     border: 1px solid #000000;
 }
+.btn-wordpress{
+    color: #FFFFFF;
+    background: #0073AA;
+}
+.btn-wordpress:hover,
+.btn-wordpress:focus{
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
 /* Skills */
 .skills{
     width: 100%;

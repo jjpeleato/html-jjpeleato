@@ -116,6 +116,9 @@ hr.dark{max-width:100px;margin:25px auto;border-bottom:0;border-top:6px solid #0
 .btn-bitbucket{color:#FFFFFF;background:#205081;}
 .btn-bitbucket:hover,
 .btn-bitbucket:focus{color:#000000;background:#FFFFFF;border:1px solid #000000;}
+.btn-wordpress{color:#FFFFFF;background:#0073AA;}
+.btn-wordpress:hover,
+.btn-wordpress:focus{color:#000000;background:#FFFFFF;border:1px solid #000000;}
 .skills{width:100%;padding:100px 0px;color:#222222;text-align:justify;}
 .skills h3{font-size:30px;font-weight:700;}
 .skills p{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.1;}
