@@ -282,7 +282,7 @@ hr.dark {
     height: 100%;
     display: table;
     text-align: center;
-    background: url('../img/background/jjpeleato-background.min.jpg') no-repeat center center;
+    background: url('../img/background/jjpeleato-background-v2-min.jpg') no-repeat left center;
     background-size: cover;
 }
 @media(max-height:600px) {
@@ -399,7 +399,7 @@ hr.dark {
 }
 /* Frase */
 .fondo {
-    background-image: url(../img/background/frase-background-min.jpg);
+    background-image: url(../img/background/frase-background-v2-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 0px;
