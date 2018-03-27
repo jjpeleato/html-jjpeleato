@@ -10,7 +10,13 @@
     deny from all
 </files>
 
-# Redirect: dominio.com to www.dominio.com
+# .gitignore secure
+<files .gitignore>
+    order allow,deny
+    deny from all
+</files>
+
+# Redirect: example.com to www.example.com
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
@@ -18,7 +24,7 @@
     RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
-# Redirect: www.dominio.com to www.dominio.com + SSL
+# Redirect: www.example.com to www.example.com + SSL
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteCond %{HTTPS} !=on [NC]
@@ -92,7 +98,7 @@
 
 # END GZIP COMPRESSION
 
-# Errores
+# Errors
 ErrorDocument 400 /400.html
 ErrorDocument 401 /401.html
 ErrorDocument 403 /403.html
