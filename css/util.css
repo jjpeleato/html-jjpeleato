@@ -476,6 +476,16 @@ hr.dark {
     -o-transitino:all .3s ease-in-out;
     transition:all .3s ease-in-out;
 }
+.btn-angellist{
+    color: #FFFFFF;
+    background: #000000;
+}
+.btn-angellist:hover,
+.btn-angellist:focus{
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
 .btn-google{
     color: #FFFFFF;
     background: #DD4B39;
@@ -530,7 +540,7 @@ hr.dark {
 }
 .btn-github{
     color: #FFFFFF;
-    background: #000000;
+    background: #323232;
 }
 .btn-github:hover,
 .btn-github:focus{
