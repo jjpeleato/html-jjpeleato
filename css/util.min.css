@@ -95,6 +95,9 @@ hr.dark{max-width:100px;margin:25px auto;border-bottom:0;border-top:6px solid #0
 #carousel{list-style:none;padding:0;}
 #carousel li.item{margin-bottom:20px;}
 .btn-custom{width:50px;height:50px;padding:10px 15px;border-radius:100%;margin-bottom:10px;font-size:20px;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transitino:all .3s ease-in-out;transition:all .3s ease-in-out;}
+.btn-angellist{color:#FFFFFF;background:#000000;}
+.btn-angellist:hover,
+.btn-angellist:focus{color:#000000;background:#FFFFFF;border:1px solid #000000;}
 .btn-google{color:#FFFFFF;background:#DD4B39;}
 .btn-google:hover,
 .btn-google:focus{color:#000000;background:#FFFFFF;border:1px solid #000000;}
@@ -110,7 +113,7 @@ hr.dark{max-width:100px;margin:25px auto;border-bottom:0;border-top:6px solid #0
 .btn-slides{padding:10px 14px;color:#FFFFFF;background:#E5637C;}
 .btn-slides:hover,
 .btn-slides:focus{color:#000000;background:#FFFFFF;border:1px solid #000000;}
-.btn-github{color:#FFFFFF;background:#000000;}
+.btn-github{color:#FFFFFF;background:#323232;}
 .btn-github:hover,
 .btn-github:focus{color:#000000;background:#FFFFFF;border:1px solid #000000;}
 .btn-bitbucket{color:#FFFFFF;background:#205081;}
