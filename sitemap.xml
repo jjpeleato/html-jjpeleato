@@ -4,7 +4,22 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://www.jjpeleato.com/</loc>
-</url>
+    <url>
+        <loc>https://www.jjpeleato.com/</loc>
+    </url>
+    <url>
+        <loc>https://www.jjpeleato.com/courses/initwordpress/</loc>
+    </url>
+    <url>
+        <loc>https://www.jjpeleato.com/courses/securitywordpress/</loc>
+    </url>
+    <url>
+        <loc>https://www.jjpeleato.com/courses/html5forseo/</loc>
+    </url>
+    <url>
+        <loc>https://www.jjpeleato.com/courses/blockchain/</loc>
+    </url>
+    <url>
+        <loc>https://www.jjpeleato.com/courses/flex-box/</loc>
+    </url>
 </urlset>
