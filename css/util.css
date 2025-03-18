@@ -126,28 +126,6 @@ hr.dark {
 #go-top a:focus {
     text-decoration: none;
 }
-/* Politica de cookies */
-.cookies {
-    width: 100%;
-    z-index: 10;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    opacity: 0.9;
-    background-color: #232323;
-    color: #9B9B9B;
-    font-size: 13px;
-}
-.cookies button {
-    margin-top: 4px;
-    font-size: 13px;
-    background: transparent;
-    color: #FFFFFF;
-    font-weight: 300;
-    border-radius: 0;
-    text-shadow: none;
-}
 /* Menu navegación */
 .navbar{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -676,82 +654,6 @@ ul > li .skill-value .glyphicon {
     ul > li:hover .skill-value .glyphicon {
         margin-left: 1.5px;
     }
-}
-/* Contact */
-.contact {
-    width: 100%;
-    padding: 175px 0;
-    background-color: #439AD5;
-    background-image: url(../img/background/jjpeleato-map-min.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-@media (max-width: 960px){
-    .contact{
-        padding: 100px 0;
-    }
-}
-.contact .section-heading {
-    text-transform: none;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    color: #fff;
-}
-.contact .section-subheading {
-    text-transform: none;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 400;
-    color: #fff;
-}
-.contact .form-group {
-    margin-bottom: 25px;
-}
-.contact .form-group input,
-.contact .form-group textarea {
-    padding: 20px;
-}
-.contact .form-group input.form-control {
-    height: auto;
-}
-.contact .form-group textarea.form-control {
-    resize: none;
-    height: 236px;
-}
-.contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none;
-}
-@media (max-width: 768px) {
-    .contact .separador{
-        padding-top: 15px;
-    }
-}
-.contact .result{
-    height: 40px;
-}
-.contact hr.light{
-    margin-bottom: 75px;
-}
-.btn-xl,
-.btn-xl:active,
-.btn-xl:focus {
-    padding: 15px 40px;
-    border-color: #FFFFFF;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FFF;
-    background-color: #000000;
-}
-.btn-xl:hover{
-    border-color: #FFFFFF;
-    color: #000000;
-    background-color: #FFFFFF;
 }
 /* Footer */
 footer {
